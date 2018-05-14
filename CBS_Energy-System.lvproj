@@ -17,6 +17,7 @@
 		<Item Name="models" Type="Folder">
 			<Item Name="CombinedHeatPowerUnit.vi" Type="VI" URL="../models/CombinedHeatPowerUnit.vi"/>
 			<Item Name="ConsumerData.vi" Type="VI" URL="../models/ConsumerData.vi"/>
+			<Item Name="ConsumerPast.vi" Type="VI" URL="../models/ConsumerPast.vi"/>
 			<Item Name="ElectricalSorage.vi" Type="VI" URL="../models/ElectricalSorage.vi"/>
 			<Item Name="PhotoVoltaic.vi" Type="VI" URL="../models/PhotoVoltaic.vi"/>
 			<Item Name="Prognosis.vi" Type="VI" URL="../models/Prognosis.vi"/>
