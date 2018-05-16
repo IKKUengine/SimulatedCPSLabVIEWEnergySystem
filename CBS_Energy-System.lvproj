@@ -13,6 +13,7 @@
 		<Item Name="classes" Type="Folder">
 			<Item Name="DataCollector.lvclass" Type="LVClass" URL="../classes/DataCollector.lvclass"/>
 			<Item Name="DataHandler.lvclass" Type="LVClass" URL="../classes/DataHandler.lvclass"/>
+			<Item Name="SimulationParameter.lvclass" Type="LVClass" URL="../classes/SimulationParameter.lvclass"/>
 		</Item>
 		<Item Name="models" Type="Folder">
 			<Item Name="CombinedHeatPowerUnit.vi" Type="VI" URL="../models/CombinedHeatPowerUnit.vi"/>
