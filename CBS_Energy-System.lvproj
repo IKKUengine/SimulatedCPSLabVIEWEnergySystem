@@ -27,9 +27,9 @@
 			<Item Name="ThermalStorage.vi" Type="VI" URL="../models/ThermalStorage.vi"/>
 			<Item Name="WindPower.vi" Type="VI" URL="../models/WindPower.vi"/>
 		</Item>
-		<Item Name="Controlling.vi" Type="VI" URL="../Controlling.vi"/>
+		<Item Name="EnergyControlling.vi" Type="VI" URL="../EnergyControlling.vi"/>
+		<Item Name="EnergyMonitoring.vi" Type="VI" URL="../EnergyMonitoring.vi"/>
 		<Item Name="EnergySystem.vi" Type="VI" URL="../EnergySystem.vi"/>
-		<Item Name="Monitoring.vi" Type="VI" URL="../Monitoring.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
