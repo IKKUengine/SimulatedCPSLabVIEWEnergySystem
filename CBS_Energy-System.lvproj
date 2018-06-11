@@ -20,6 +20,7 @@
 			<Item Name="ConsumerData.vi" Type="VI" URL="../models/ConsumerData.vi"/>
 			<Item Name="ConsumerPast.vi" Type="VI" URL="../models/ConsumerPast.vi"/>
 			<Item Name="ElectricalSorage.vi" Type="VI" URL="../models/ElectricalSorage.vi"/>
+			<Item Name="EmergencyCooler.vi" Type="VI" URL="../models/EmergencyCooler.vi"/>
 			<Item Name="PhotoVoltaic.vi" Type="VI" URL="../models/PhotoVoltaic.vi"/>
 			<Item Name="Prognosis.vi" Type="VI" URL="../models/Prognosis.vi"/>
 			<Item Name="PublicElectricityNetwork.vi" Type="VI" URL="../models/PublicElectricityNetwork.vi"/>
