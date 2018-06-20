@@ -28,11 +28,15 @@
 			<Item Name="ThermalStorage.vi" Type="VI" URL="../models/ThermalStorage.vi"/>
 			<Item Name="WindPower.vi" Type="VI" URL="../models/WindPower.vi"/>
 		</Item>
+		<Item Name="subvis" Type="Folder">
+			<Item Name="getStartStopReleaseTime.vi" Type="VI" URL="../subvi/getStartStopReleaseTime.vi"/>
+			<Item Name="LimitationIfNotNaN.vi" Type="VI" URL="../subvi/LimitationIfNotNaN.vi"/>
+			<Item Name="ListTableNames.vi" Type="VI" URL="../subvi/ListTableNames.vi"/>
+		</Item>
 		<Item Name="EnergyControlling.vi" Type="VI" URL="../EnergyControlling.vi"/>
 		<Item Name="EnergyMonitoring.vi" Type="VI" URL="../EnergyMonitoring.vi"/>
-		<Item Name="EnergySystem.vi" Type="VI" URL="../EnergySystem.vi"/>
-		<Item Name="getStartStopReleaseTime.vi" Type="VI" URL="../subvi/getStartStopReleaseTime.vi"/>
-		<Item Name="LimitationIfNotNaN.vi" Type="VI" URL="../subvi/LimitationIfNotNaN.vi"/>
+		<Item Name="Real-TimeHybrid_EnergySystem.vi" Type="VI" URL="../Real-TimeHybrid_EnergySystem.vi"/>
+		<Item Name="Virtual-TimeSimulated_EnergySystem.vi" Type="VI" URL="../Virtual-TimeSimulated_EnergySystem.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
