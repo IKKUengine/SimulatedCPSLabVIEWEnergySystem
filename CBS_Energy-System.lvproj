@@ -15,6 +15,10 @@
 			<Item Name="DataHandler.lvclass" Type="LVClass" URL="../classes/DataHandler.lvclass"/>
 			<Item Name="SimulationParameter.lvclass" Type="LVClass" URL="../classes/SimulationParameter.lvclass"/>
 		</Item>
+		<Item Name="management" Type="Folder">
+			<Item Name="ManagementRandomData.vi" Type="VI" URL="../management/ManagementRandomData.vi"/>
+			<Item Name="ManagementRandomData2.vi" Type="VI" URL="../management/ManagementRandomData2.vi"/>
+		</Item>
 		<Item Name="models" Type="Folder">
 			<Item Name="CombinedHeatPowerUnit.vi" Type="VI" URL="../models/CombinedHeatPowerUnit.vi"/>
 			<Item Name="ConsumerData.vi" Type="VI" URL="../models/ConsumerData.vi"/>
@@ -35,7 +39,6 @@
 		</Item>
 		<Item Name="EnergyControlling.vi" Type="VI" URL="../EnergyControlling.vi"/>
 		<Item Name="EnergyMonitoring.vi" Type="VI" URL="../EnergyMonitoring.vi"/>
-		<Item Name="Real-TimeHybrid_EnergySystem.vi" Type="VI" URL="../Real-TimeHybrid_EnergySystem.vi"/>
 		<Item Name="Virtual-TimeSimulated_EnergySystem.vi" Type="VI" URL="../Virtual-TimeSimulated_EnergySystem.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
