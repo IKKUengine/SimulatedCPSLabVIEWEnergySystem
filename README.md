@@ -1,4 +1,4 @@
-# SimulatedCPSLabVIEWEnergySystem
+# Simulated ηNet - Cyber-Physical and Data Managed Energy System
 
 ## Context of the development
 In the context of the ηNet energy management project a system was developed that allows the energetic analysis and control of energy systems.The energy systems of the future will be a network of a multitude of technologies and applications. However, the diversity of these components, their topology and the size of the systems lead to a high degree of complexity. The energy systems of the future are confronted with serious problems for system stability and efficiency. The aim of the project is to develop a software and network system that abstracts and digitizes energy and information flows. This abstraction and digitization enables cross-system control.
