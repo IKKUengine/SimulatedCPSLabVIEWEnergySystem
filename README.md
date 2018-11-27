@@ -10,6 +10,9 @@ For digitization, all field elements of the energy system are classified into th
 
 ![alt text](etaNetSystemArchitecture.png)
 
+Figure: Schematic representation of the system architecture concept. Producer (P), Consumer (C), Storage (S), Data Acquisition (DQ), Controlling and Configuration (Conig). The big blue arrows indicate the direction of the energy flows.
+
+
 ## Prerequisites
 * To use the software, NI LabVIEW version 2017 or later is required. LabVIEW is a development environment and is for any measurement or control system. If you don't have a license for the development environment, you can use the evaluating version for now. [You can download it here](http://www.ni.com/de-de/shop/labview.html). 
 * SQLite is used here for the database. The SQLite library can be integrated directly into corresponding applications so that no additional server software is required. Here the SQLite library for LabVIEW by Dr. James Powell was used. [Here you can download and install it](http://sine.ni.com/nips/cds/view/p/lang/de/nid/212894). 
@@ -34,15 +37,22 @@ Only the two VIs are relevant for the start of the demo energy system:
 Start first Virtual-TimeSimulated_EnergySystem.vi and then EnergyMonitoring.vi. 
 The system is programmed so that the corresponding database and its structure is created automatically at startup. An insight into the database allows the EnergyMonitoring.vi. You can also use the [DB Browser for SQLite] (https://sqlitebrowser.org/).
 
-## Controlling and Management
-* Virtual-TimeSimulated_EnergySystem.vi
+## OOP-oriented Programming Paradigm of the Management
+The control interface of the CPOs is summarized as a table (control matrix) in the database. If one of the parameters changes, this has a direct influence on the CPOs and therefore on the system itself.  
 
+For example, self-organizing algorithms can use this control matrix:
+* If a producer fails, another inactive producer can be switched on or energy consumers can be deactivated.  
+* In order to save costs, low-cost producers can be prioritized higher.
+* to save carbon dioxide, emission-free producers can be prisorized higher.
+* etc.  
+
+**Management Interface**
+Start Virtual-TimeSimulated_EnergySystem.vi. In Folder \SimulatedCPSLabVIEWEnergySystem\management there are some Demo-VIs but but with no content yet. Currently the demo versions of management algorithms are under development and will follow soon...
 
 ## Authors
 Ferhat Aslan
 
 ## License
-
 This project is licensed under MIT - see the [LICENSE](LICENSE) file for details
 
 
