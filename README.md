@@ -54,6 +54,6 @@ Start EnergyControlling.vi. On the surface of EnergyControlling.vi you can direc
 Ferhat Aslan
 
 ## License
-This project is licensed under MIT - see the [LICENSE](LICENSE) file for details
+This project is licensed under MIT - see the [LICENSE](LICENSE.md) file for details
 
 
