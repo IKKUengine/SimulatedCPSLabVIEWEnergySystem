@@ -5,7 +5,7 @@ In the context of the ηNet energy management project a system was developed tha
 
 
 ## Concept of Energy Management System
-The aim is to establish a management layer that has an influence on the regulation of the energy system. In this way, higher adaptation strategies can be implemented.
+The aim is to establish a management layer that has an influence on the control of the energy system. In this way, higher adaptation strategies can be implemented.
 
 <img src="LayerOfSbstraction.png" width=35%>
 
