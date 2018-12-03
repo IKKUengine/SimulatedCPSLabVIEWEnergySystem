@@ -10,8 +10,11 @@ For digitization, all field elements of the energy system are classified into th
 
 ![alt text](etaNetSystemArchitecture.png)
 
-Figure: Schematic representation of the system architecture concept. Producer (P), Consumer (C), Storage (S), Data Acquisition (DQ), Controlling and Configuration (Conig). The big blue arrows indicate the direction of the energy flows.
+Figure1: Schematic representation of the system architecture concept. Producer (P), Consumer (C), Storage (S), Data Acquisition (DQ), Controlling and Configuration (Conig). The big blue arrows indicate the direction of the energy flows.
 
+![alt text](etanetSchematicSystem.png)
+
+Figure2: Schematic representation of the system workflow. 
 
 ## Prerequisites
 * To use the software, NI LabVIEW version 2017 or later is required. LabVIEW is a development environment and is for any measurement or control system. If you don't have a license for the development environment, you can use the evaluating version for now. [You can download it here](http://www.ni.com/de-de/shop/labview.html). 
