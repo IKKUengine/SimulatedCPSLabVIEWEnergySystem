@@ -60,6 +60,8 @@ Start EnergyControlling.vi. On the surface of EnergyControlling.vi you can direc
 
 ## System and Software Engineer, Project Supervisor and Author
 Ferhat Aslan
+## Project Collaboration and Software Engineer
+Florian Ferry
 
 ## License
 This project is licensed under MIT - see the [LICENSE](LICENSE.md) file for details
