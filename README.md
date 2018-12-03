@@ -58,7 +58,7 @@ For example, self-organizing algorithms can use this control matrix:
 
 Start EnergyControlling.vi. On the surface of EnergyControlling.vi you can directly change the management parameters in the table and look at the result in Virtual-TimeSimulated_EnergySystem.vi and EnergyMonitoring.vi. Just try it out. In Folder \SimulatedCPSLabVIEWEnergySystem\management there are some Demo-VIs but with no content yet. Currently the demo versions of management algorithms are under development and will follow soon...
 
-## Authors
+## Systems Engineer and Authors
 Ferhat Aslan
 
 ## License
